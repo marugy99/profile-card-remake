@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #181818;
+    box-sizing: border-box;
+    color: white;
+    background: url(images/Visiwig-Grid.svg);
+}
+
+h3 {
+    color: #1ed760;
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin-top: 0.75rem; 
+    margin-bottom: 0.75rem; 
+}
+
+h4::after {
+    content: " \2714";
+    color: white;
+    background-color: #226DDD;
+    border-radius: 50%;
+    padding-right: 0.25rem;
+}
+
+p {
+    font-weight: 300; 
+    font-size: 0.78rem;
+    margin-top: 8px;
+    letter-spacing: 2px;
+}
+
+hr {
+    margin: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+button {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 1.25rem;
+    padding: 0.60rem;
+    width: 6.25rem;
+    font-family: inherit;
+    color: inherit;  
+    margin-bottom: 0.625rem;
+    cursor: pointer;
+    letter-spacing: 2px;
+    
+}
+
+button:hover { 
+    transition: border-color 400ms ease-in-out;
+    border-color: #226DDD;
+}
+
+#wrapper {
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+}
+
+.card {
+    max-width: 22.1875rem;
+    max-height: 30.625rem;
+    background-color: #181818;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #1ed760;
+    
+}
+
+.cover-card {
+    width: 21.875rem;
+    height: 8.75rem;
+    background: rgb(9,8,29);
+    background: linear-gradient(90deg, rgba(9,8,29,1) 0%, rgba(30,215,96,1) 53%);
+}
+
+.profile-photo {
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    margin-top: -3.75rem;
+}
+
+#user-name::after {
+    content: ' 21';
+    color: #84848C;
+    font-weight: 300; 
+}
+
+.stats {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
